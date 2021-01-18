@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24458586161",
+    "project_id": "depression-8e73f",
+    "storage_bucket": "depression-8e73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24458586161:android:7dd19e90a2ed44638a4d10",
+        "android_client_info": {
+          "package_name": "com.stem.depression_cure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24458586161-hl6h954mvqdgde3cds93uq41kh50o22e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm4sZbecIGJpSRc3ZbBIrYhBSP7J5xYE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24458586161-hl6h954mvqdgde3cds93uq41kh50o22e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
