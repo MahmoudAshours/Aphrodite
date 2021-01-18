@@ -46,21 +46,24 @@ class ExerciseDetail1 extends StatelessWidget {
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(18.0),
-                child: FadeInUp(
-                  child: Container(
-                    width: 250,
-                    height: 50,
-                    child: Center(
-                      child: Text(
-                        "Steps",
-                        style: TextStyle(fontSize: 21),
+              FadeInUp(
+                delay: Duration(seconds: 1),
+                child: Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: FadeInUp(
+                    child: Container(
+                      width: 250,
+                      height: 50,
+                      child: Center(
+                        child: Text(
+                          "Steps",
+                          style: TextStyle(fontSize: 21),
+                        ),
                       ),
+                      decoration: BoxDecoration(
+                          color: Colors.deepPurple,
+                          borderRadius: BorderRadius.circular(50)),
                     ),
-                    decoration: BoxDecoration(
-                        color: Colors.deepPurple,
-                        borderRadius: BorderRadius.circular(50)),
                   ),
                 ),
               ),
@@ -81,62 +84,74 @@ class ExerciseDetail1 extends StatelessWidget {
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ListTile(
-                    leading: CircleAvatar(
-                      radius: 6.0,
-                      backgroundColor: Colors.black,
-                    ),
-                    subtitle: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                          " Please write down what you typically do, what you say, and note the tone in which you typically talk to your friends."),
-                    ),
-                    title: Text(
-                        "Think about times when a close friend feels bad about him or herself or is  struggling in some way. How would you respond to your friend in this situation (especially when you are at your best)?")),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ListTile(
-                  leading: CircleAvatar(
-                    radius: 6.0,
-                    backgroundColor: Colors.black,
-                  ),
-                  title: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                        "Now think about times when you feel bad about yourself or are struggling. How do you typically respond to yourself in these situations? "),
-                  ),
-                  subtitle: Text(
-                      "Please write down what you typically do what you say, and note the tone in which you talk to yourself."),
+              FadeInUp(
+                delay: Duration(seconds: 1),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
+                      leading: CircleAvatar(
+                        radius: 6.0,
+                        backgroundColor: Colors.black,
+                      ),
+                      subtitle: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                            " Please write down what you typically do, what you say, and note the tone in which you typically talk to your friends."),
+                      ),
+                      title: Text(
+                          "Think about times when a close friend feels bad about him or herself or is  struggling in some way. How would you respond to your friend in this situation (especially when you are at your best)?")),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ListTile(
+              FadeInUp(
+                delay: Duration(seconds: 1),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
                     leading: CircleAvatar(
                       radius: 6.0,
                       backgroundColor: Colors.black,
                     ),
                     title: Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Did you notice a difference? "),
+                      child: Text(
+                          "Now think about times when you feel bad about yourself or are struggling. How do you typically respond to yourself in these situations? "),
                     ),
                     subtitle: Text(
-                        "If so, ask yourself What factors or fears come into play that lead you to treat yourself and others so differently?")),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ListTile(
-                  leading: CircleAvatar(
-                    radius: 6.0,
-                    backgroundColor: Colors.black,
+                        "Please write down what you typically do what you say, and note the tone in which you talk to yourself."),
                   ),
-                  title: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                        "Please write down how you think things might change if you responded to yourself in the same way you typically respond to a close friend when you’re suffering."),
+                ),
+              ),
+              FadeInUp(
+                delay: Duration(seconds: 1),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
+                      leading: CircleAvatar(
+                        radius: 6.0,
+                        backgroundColor: Colors.black,
+                      ),
+                      title: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text("Did you notice a difference? "),
+                      ),
+                      subtitle: Text(
+                          "If so, ask yourself What factors or fears come into play that lead you to treat yourself and others so differently?")),
+                ),
+              ),
+              FadeInUp(
+                delay: Duration(seconds: 1),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      radius: 6.0,
+                      backgroundColor: Colors.black,
+                    ),
+                    title: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                          "Please write down how you think things might change if you responded to yourself in the same way you typically respond to a close friend when you’re suffering."),
+                    ),
                   ),
                 ),
               )
