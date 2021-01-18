@@ -21,7 +21,7 @@ void main() async {
         debugShowCheckedModeBanner: false,
         navigatorKey: navGK,
         theme: themes,
-        title: 'Volcano',
+        title: 'Depression',
         home: await checkIntro()
             ? IntroPage()
             : Consumer<SignInBloc>(
