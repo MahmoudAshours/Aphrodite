@@ -67,20 +67,13 @@ class _IntroPageState extends State<IntroPage> {
                 ),
                 SizedBox(width: 10),
                 Text(
-                  'Volcano',
+                  'Depression cure',
                   style: TextStyle(color: Colors.white, fontSize: 30),
                 )
               ],
             ),
           ),
-          Positioned(
-            left: _screenWidth / 45,
-            bottom: _screenHeight / 10,
-            child: Text(
-              'A platform for depressed!',
-              style: TextStyle(color: Colors.white.withAlpha(65), fontSize: 30),
-            ),
-          ),
+
         ],
       ),
     );

@@ -164,10 +164,14 @@ class ExerciseDetail3 extends StatelessWidget {
                       radius: 6.0,
                       backgroundColor: Colors.black,
                     ),
-                    subtitle: ListTile(title: Text("I know this is hard right now, and it’s only natural you’re feeling so stressed. I’m here for you”. Or else you might try using soothing touch or the self-compassion break. This will allow you to keep your heart open, and help you care for and nurture yourself at the same time you are caring for and nurturing others."),),
+                    subtitle: ListTile(
+                      title: Text(
+                          "I know this is hard right now, and it’s only natural you’re feeling so stressed. I’m here for you”. Or else you might try using soothing touch or the self-compassion break. This will allow you to keep your heart open, and help you care for and nurture yourself at the same time you are caring for and nurturing others."),
+                    ),
                     title: Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("When you are feeling stressed or overwhelmed when with the person you are caring for, you might try giving yourself soothing words of support for example:"),
+                      child: Text(
+                          "When you are feeling stressed or overwhelmed when with the person you are caring for, you might try giving yourself soothing words of support for example:"),
                     ),
                   ),
                 ),
