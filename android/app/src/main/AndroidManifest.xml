@@ -2,10 +2,11 @@
     package="com.example.depression_cure">
   
   <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
 
    <application
-        android:label="depression_cure"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Aphrodite"
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
