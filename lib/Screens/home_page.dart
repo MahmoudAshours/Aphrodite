@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int currentItem = 0;
   final List pagesList =
-      List.unmodifiable([FlutterFactsDialogFlow(),Exercises()]);
+      List.unmodifiable([AphroditeDialogFlow(),Exercises()]);
   @override
   void initState() {
     if (widget.uid != null) widget.bloc..userUID = widget.uid;

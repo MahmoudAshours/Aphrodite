@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:volcano/Models/fact_message.dart';
 
-class FlutterFactsDialogFlow extends StatefulWidget {
-  FlutterFactsDialogFlow({Key key, this.title}) : super(key: key);
+class AphroditeDialogFlow extends StatefulWidget {
+  AphroditeDialogFlow({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _FlutterFactsDialogFlowState createState() =>
-      new _FlutterFactsDialogFlowState();
+  _AphroditeDialogFlowState createState() =>
+      new _AphroditeDialogFlowState();
 }
 
-class _FlutterFactsDialogFlowState extends State<FlutterFactsDialogFlow> {
+class _AphroditeDialogFlowState extends State<AphroditeDialogFlow> {
   final List<FactsMessage> _messages = <FactsMessage>[];
   final TextEditingController _textController = new TextEditingController();
 
