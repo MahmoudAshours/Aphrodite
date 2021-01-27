@@ -9,10 +9,9 @@ class SignIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-              child: SingleChildScrollView(
+        child: SingleChildScrollView(
           child: Column(
             children: [
-     
               Padding(
                 padding: const EdgeInsets.all(18.0),
                 child: EmailComponent(),
