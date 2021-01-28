@@ -1,13 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "aphrodite-dltb",
-  "private_key_id": "fa619a8c069486619974d83c6876ec92ad03df70",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyMhbLgtxLBaEj\nKYeT1R9hEsGf0uO5+u0MneSDAX/RkUOvwbhaHFH4pjfzqAGAg3ynG2RWWrvEQf85\n5/PFKAvO9r8ytgej+RyJqPtUnmRNpzegt5K28oRMKNzvBj9bkOzLFWo0uwnQCPNg\nbiIFziS7t1/dZ08yV+3hUKqZWnIZfzoxgxmWgK8RZfAhWhGsLydKnBH2E2QuGCYa\nUOPzzlFa45KwtRmjNKuRQHrarh1RrmdR1uBMeTwPKLUBU0oAl+3L6BBO2uiOdJdY\nyN3htkWd13g4r3NPT94gHOA4/0ecBpT88zcw0PVkS+MIDhhyWT0sIeaFgZu8XNfT\nedoVtIalAgMBAAECggEABVjBkdbUl3oCWSd+blYIpGqXaDKqoL0xySfgqs9L9O9h\nTZ/9USjZ4HZ+UHTeogBFUyScLgd4Fv4C84ttPKHEZEVHkd+KhaXscF34t+kuace7\nayVZmocsJzaFAIqvsnvmpaZNbZUcyNhH6IFiyx6hwAcociB5ghwczV6qARgeEHvm\n9cBYDLvxCyCN1kBXi2nhOx/ji0JfSqUSz+yb1dkGQ4Nji90D/v52IOP0NVEDmVZA\nAXlT4wcZR5mNAPnyo3G5FwkJXasqbYFGGED4tQvlhqKJ8gNhcbmkSmFfxEb3XYyC\n/FM3LRvW0uWWBLjKsSNXFYPKCyTkktGkaEZ13xid8QKBgQDxQqZQlH1EYMlly+Gd\n+Mmig2oqrWRXMyv5fVBe0t9855Fw9J/ypCxtCGjkQNqwGS+slQhn3w547ejyD6T3\nsikn6X5PDyTdjeBkcRUiMaOUmmAFkILX1xV51wBXKU0fArEFqlTLWCgl7takB4LS\n0v8T9TzRJ9EBFdJMaaf+hxgx0QKBgQC9FRj6jiCQYXIX8ocMa0tPjZrEn9JbZ3jN\nb84jBHZOdmHM82SNM60hckbUi4qkV2Ev1RjYsnX+gFx3AnAWpt5nLxC7OQYruMmg\nkoez6uzfs+zjDhFGFhxhvnw8TASGrZgaJN1jRB16CXKnRgtwxD6yA/RRiA1PxuAM\nH7T1fUEIlQKBgQDAdSKndUzYlz0R76pzkluHQL4YfWlmBnQ1+jl6601NHo1vRjWy\nIjUuZV8HdpT9lZnqWpjyA4ZQAbmqH8DBt2YNaL5R4wrNkrhGZ88sD90mVl/zEGzQ\nMcv3/gNPhKr46fS9SDuMWy7r07N19mfuNlM1YJS7ZL/d1cKFImPZL3ulgQKBgA7Y\nyz9RTalInYbX2lbVTfKPMeniisf2lfu7nboOLaP3k7JeIjUcK6oGqR0jX92Lpuv0\nlaDeUnmLZrdJj7eXnrsHbQ7maV+hgOOE3fb4qWTfYehqQFz6e3wJUwQBDBHvK5RR\n9LhIru/YMhKEY32VSz77JIIKZtEu0oThMHpePW8JAoGACLqmb1Ne92idXsHl4eV5\npBVqfivLZy1vYF+DNcazIEFNPmUM4Y7WXo36JvyD3a/FPiHeeKjZCeTwVF4Kh5LV\nYj8OXJAypTfKOS5KAxj8J45Ntq6TykCln24cY0zFg16sXl34KGOPsitZLIpj/xIP\nRaAyKi8hl71VQGLYvFbMdvQ=\n-----END PRIVATE KEY-----\n",
-  "client_email": "aphrodite-755@aphrodite-dltb.iam.gserviceaccount.com",
-  "client_id": "101410292790490915076",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aphrodite-755%40aphrodite-dltb.iam.gserviceaccount.com"
-}
-  
+
